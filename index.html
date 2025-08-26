@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+<body>
+    <h2>Carrito</h2>
+    <ul id="carrito-lista"></ul>
+    <p>Total: $ <span id="total">0</span></p>
+    <script>
+        function actualizarCarrito(){
+        const lista = document.getElementById("carrito-lista");
+        const totalElemento = document.getElementById("total");
+        lista.innerHTML="";
+        carrito.forEach(item =>{
+            const li =document.createElement("li");
+            li.textContent = `${item.cantidad} x ${item.nombre} = $${item.precio*item.cantidad}`;
+        lista.appendChild(li);
+    });
+    totalElemento.textContent=total.toFixed(2)
+    }
+    </script>
+ </body>
+</html>

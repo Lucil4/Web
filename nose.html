@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>¿Quiénes somos?</title>
+<style>
+ body {
+margin: 0;
+font-family: 'Arial', sans-serif;
+background-color: white;
+text-align: center;
+}
+
+header {
+    background-color: #ffffff;
+    color: #f87ec1;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    opacity: 80%;
+}
+
+h2 {
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffb95e;
+    padding: 10px;
+    inline-size: none;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 30px 30px;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #5b85fa;
+    color: white;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.pregunta-titulo {
+color: #f5588e;
+font-size: 48px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 20px;
+position: relative;
+}
+.pregunta-titulo::after {
+content: '';
+display: block;
+width: 80px;
+height: 4px;
+background-color: #f4d35e;
+margin: 10px auto 0 auto;
+border-radius: 2px;
+}
+
+.descripcion {
+font-size: 18px;
+text-align: center;
+color: #333;
+max-width: 800px;
+margin: 40px auto;
+line-height: 1.6;
+padding: 0 20px;
+}
+/* Archivo: grid.css */
+.contenedor-grid {
+    display: grid;            /* Contenedor grid habilitado */
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 10px;                /* Espacio entre filas y columnas */
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+}
+
+.celda-grid {
+    background-color: #f791aa;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+footer {
+  background-color: #ffe3af;
+  padding: 2px;
+  margin-top: 40px;
+}
+
+footer .redes a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+    .redes-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.redes{
+    margin-top: 15px;
+}
+</style>
+</head>
+<body>
+
+      <header>
+            <img src="images/mAKIPI_LOGO_copia_122959_page-0001-removebg-preview.png"logo> 
+            </header>
+            
+            <nav>
+                <a href="../index.html">inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="makipi2.html">Registro</a>
+                <a href="nose.html">¿Quiénes somos?</a>
+                <a href="sesion.html">Inicio de Sesión</a>
+            </nav>
+
+<section class="quienes-somos">
+      <h1 class="pregunta-titulo">¿Quiénes somos?</h1>
+      
+      <p class="descripcion">
+      Nootras somos <strong>Makipi</strong> y queremos ayudarte a comprar de forma organizada y sin desorden en el kiosco del colegio. En Makipi podrás ver los productos disponibles y hacer tu pedido de manera rápida y sencilla. Queremos que tengas una mejor experiencia al momento de comprar, sin complicaciones.
+      </p>
+</section>
+
+<section class="contenedor-grid">
+      <div class="celda-grid">
+          <h2>NUESTRO OBJETIVO</h2>
+          <p>Ofrecer a nuestros clientes una experiencia práctica y rápida al comprar sus productos diarios, como snacks, bebidas, desayunos,etc. Con un buen servicio de atención y precios accesibles.</p>
+      </div>  
+      <div class="celda-grid">
+          <h2>MISIÓN</h2>
+          <p>Ofrecer un buen servicio de atención para que el cliente tenga una buena experiencia. Ofrecer una gran variedad de productos para la eleccion libre de
+              nuestros clientes, generando confianza, y buena comunicación. Nos adaptamos al uso de la tecnología y a métodos de pago como transferencia.
+          </p>
+      </div>
+      <div class="celda-grid">
+          <h2>VISIÓN</h2>
+          <p>Ser un quiosco innovador y que sea capaz de adaptarse con las herramientas tecnológicas para ofrecer una atención inigualable a los clientes. Ser inspiración
+              para futuros negocios.
+          </p>
+      </div>
+  </section>
+
+  <footer>
+      <div class="redes-grid">
+        <div>
+          <p>&copy; Makipi 2025</p>
+        </div>
+      <div>
+        <p>Contacto: +51 987 654 321</p>
+      </div>
+      <div class="redes">
+        <a href="https://www.instagram.com/mak.ipi404?igsh=bHhna3djeHJ5M2Jn">Instagram</a>
+        <a href="https://www.facebook.com/?locale=es_LA">Facebook</a>
+        <a href="https://whatsapp.com/channel/0029VbAjvT0LdQec8B2bBr3H">WhatsApp</a>
+      </div>
+      </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body{
+  font-family:sans-serif;
+  margin:30px;
+  background-color:#f9f9f9;
+  color:#333;
+  text-align: center;
+}
+
+h1{color:#fa8fb2}
+h1,h2{text-align:center}
+
+header {
+      background-color: #ffffff;
+      color: #f87ec1;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 200px;
+      height: 50% ;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #ffb95e;
+      padding: 10px 0;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      color: black;
+      text-decoration: none;
+      padding: 15px 25px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #5b85fa;
+      color: white;
+    }
+
+.productos{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:40px;
+  max-width:1200px;
+  margin:0 auto 30px;
+}
+.producto{
+  background-color:#ffffff;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  width:200px;
+  text-align:center;
+  transition:transform .3s;
+}
+.producto:hover{
+    transform:scale(1.05)
+}
+.producto img{
+    width:100%;height:250px;border-radius:5px
+}
+
+input[type="number"]{
+    
+    width:60px;padding:5px;margin-top:10px
+}
+button{
+  margin-top:10px;
+  padding:8px 15px;
+  background-color:rgb(255,166,0);
+  color:white;
+  border:none;
+  cursor:pointer;
+  border-radius:5px;
+}
+button:hover{background-color:#005663}
+
+footer {
+  background-color: #ffe3af;
+  padding: 2px;
+  margin-top: 40px;
+}
+
+footer .redes a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+    .redes-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.redes{
+    margin-top: 15px;
+}
+
+.carrito{
+  max-width:400px;
+  margin:30px auto 60px;
+  background:#fff;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+#carrito-lista{
+    list-style:none;padding:0;margin-bottom:10px}
+#carrito-lista li{margin:6px 0;font-weight:bold}
+
+.datos-compra {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.datos-compra input, .datos-compra button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
